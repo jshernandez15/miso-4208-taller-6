@@ -1,0 +1,97 @@
+Juan Hernández@DESKTOP-UGF4HER MINGW32 ~/Downloads/miso-taller6/cucumber-webdriverio/features (master)
+$ npm test
+
+> losestudiantes-cucumber@1.0.0 test C:\Users\Juan Hernández\Downloads\miso-taller6\cucumber-webdriverio
+> node node_modules/webdriverio/bin/wdio wdio.conf.js
+
+[18:46:18]  COMMAND     POST     "/wd/hub/session"
+[18:46:18]  DATA                {"desiredCapabilities":{"javascriptEnabled":true,"locationContextEnabled":true,"handlesAlerts":true,"rotatable":true,"maxInstances":5,"browserName":"chrome","loggingPrefs":{"browser":"ALL","driver":"ALL"},"requestOrigins":{"url":"http://webdriver.io","version":"4.6.2","name":"webdriverio"}}}
+[18:46:20]  INFO        SET SESSION ID d57a03b782eaf5bc61536362f3b14225
+[18:46:20]  RESULT              {"applicationCacheEnabled":false,"rotatable":false,"mobileEmulationEnabled":false,"networkConnectionEnabled":false,"chrome":{"chromedriverVersion":"2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a)","userDataDir":"C:\\Users\\JUANHE~1\\AppData\\Local\\Temp\\scoped_dir1728_27542"},"takesHeapSnapshot":true,"pageLoadStrategy":"normal","databaseEnabled":false,"handlesAlerts":true,"hasTouchScreen":false,"version":"60.0.3112.113","platform":"Windows NT","browserConnectionEnabled":false,"nativeEvents":true,"acceptSslCerts":true,"locationContextEnabled":true,"webStorageEnabled":true,"browserName":"chrome","takesScreenshot":true,"javascriptEnabled":true,"cssSelectorsEnabled":true,"setWindowRect":true,"unexpectedAlertBehaviour":""}
+[18:46:20]  COMMAND     POST     "/wd/hub/session/d57a03b782eaf5bc61536362f3b14225/url"
+[18:46:20]  DATA                {"url":"https://losestudiantes.co/"}
+[18:46:23]  COMMAND     POST     "/wd/hub/session/d57a03b782eaf5bc61536362f3b14225/elements"
+[18:46:23]  DATA                {"using":"xpath","value":"//button[normalize-space() = \"Cerrar\"]"}
+[18:46:23]  RESULT              [{"ELEMENT":"0.9656854984717718-1"},{"ELEMENT":"0.9656854984717718-2"},{"ELEMENT":"0.9656854984717718-3"}]
+[18:46:23]  COMMAND     GET      "/wd/hub/session/d57a03b782eaf5bc61536362f3b14225/element/0.9656854984717718-1/displayed"
+[18:46:23]  DATA                {}
+[18:46:23]  COMMAND     GET      "/wd/hub/session/d57a03b782eaf5bc61536362f3b14225/element/0.9656854984717718-2/displayed"
+[18:46:23]  DATA                {}
+[18:46:23]  COMMAND     GET      "/wd/hub/session/d57a03b782eaf5bc61536362f3b14225/element/0.9656854984717718-3/displayed"
+[18:46:23]  DATA                {}
+[18:46:23]  RESULT              true
+[18:46:24]  COMMAND     POST     "/wd/hub/session/d57a03b782eaf5bc61536362f3b14225/element"
+[18:46:24]  DATA                {"using":"xpath","value":"//button[normalize-space() = \"Cerrar\"]"}
+[18:46:24]  RESULT              {"ELEMENT":"0.9656854984717718-1"}
+[18:46:24]  COMMAND     POST     "/wd/hub/session/d57a03b782eaf5bc61536362f3b14225/element/0.9656854984717718-1/click"
+[18:46:24]  DATA                {}
+[18:46:24]  COMMAND     POST     "/wd/hub/session/d57a03b782eaf5bc61536362f3b14225/elements"
+[18:46:24]  DATA                {"using":"xpath","value":"//button[normalize-space() = \"Ingresar\"]"}
+[18:46:24]  RESULT              [{"ELEMENT":"0.9656854984717718-4"}]
+[18:46:24]  COMMAND     GET      "/wd/hub/session/d57a03b782eaf5bc61536362f3b14225/element/0.9656854984717718-4/displayed"
+[18:46:24]  DATA                {}
+[18:46:24]  RESULT              true
+[18:46:24]  COMMAND     POST     "/wd/hub/session/d57a03b782eaf5bc61536362f3b14225/element"
+[18:46:24]  DATA                {"using":"xpath","value":"//button[normalize-space() = \"Ingresar\"]"}
+[18:46:24]  RESULT              {"ELEMENT":"0.9656854984717718-4"}
+[18:46:24]  COMMAND     POST     "/wd/hub/session/d57a03b782eaf5bc61536362f3b14225/element/0.9656854984717718-4/click"
+[18:46:24]  DATA                {}
+[18:46:24]  COMMAND     POST     "/wd/hub/session/d57a03b782eaf5bc61536362f3b14225/element"
+[18:46:24]  DATA                {"using":"css selector","value":".cajaLogIn"}
+[18:46:24]  RESULT              {"ELEMENT":"0.9656854984717718-5"}
+[18:46:24]  COMMAND     POST     "/wd/hub/session/d57a03b782eaf5bc61536362f3b14225/element/0.9656854984717718-5/element"
+[18:46:24]  DATA                {"using":"css selector","value":"input[name=\"correo\"]"}
+[18:46:24]  RESULT              {"ELEMENT":"0.9656854984717718-6"}
+[18:46:24]  COMMAND     POST     "/wd/hub/session/d57a03b782eaf5bc61536362f3b14225/element/0.9656854984717718-6/click"
+[18:46:24]  DATA                {}
+WARNING: the "keys" command will be depcrecated soon. Please use a different command in order to avoid failures in your test after updating WebdriverIO.
+[18:46:24]  COMMAND     POST     "/wd/hub/session/d57a03b782eaf5bc61536362f3b14225/keys"
+[18:46:24]  DATA                {"value":["w","r","o","n","g","e","m","a","i","l","(12 more items)"]}
+[18:46:24]  COMMAND     POST     "/wd/hub/session/d57a03b782eaf5bc61536362f3b14225/element/0.9656854984717718-5/element"
+[18:46:24]  DATA                {"using":"css selector","value":"input[name=\"password\"]"}
+[18:46:24]  RESULT              {"ELEMENT":"0.9656854984717718-7"}
+[18:46:24]  COMMAND     POST     "/wd/hub/session/d57a03b782eaf5bc61536362f3b14225/element/0.9656854984717718-7/click"
+[18:46:24]  DATA                {}
+WARNING: the "keys" command will be depcrecated soon. Please use a different command in order to avoid failures in your test after updating WebdriverIO.
+[18:46:24]  COMMAND     POST     "/wd/hub/session/d57a03b782eaf5bc61536362f3b14225/keys"
+[18:46:24]  DATA                {"value":["1","2","3","4","6","7","8","9","1"]}
+[18:46:24]  COMMAND     POST     "/wd/hub/session/d57a03b782eaf5bc61536362f3b14225/element"
+[18:46:24]  DATA                {"using":"css selector","value":".cajaLogIn"}
+[18:46:24]  RESULT              {"ELEMENT":"0.9656854984717718-5"}
+[18:46:24]  COMMAND     POST     "/wd/hub/session/d57a03b782eaf5bc61536362f3b14225/element/0.9656854984717718-5/element"
+[18:46:24]  DATA                {"using":"xpath","value":".//button[normalize-space() = \"Ingresar\"]"}
+[18:46:25]  RESULT              {"ELEMENT":"0.9656854984717718-8"}
+[18:46:25]  COMMAND     POST     "/wd/hub/session/d57a03b782eaf5bc61536362f3b14225/element/0.9656854984717718-8/click"
+[18:46:25]  DATA                {}
+[18:46:25]  COMMAND     POST     "/wd/hub/session/d57a03b782eaf5bc61536362f3b14225/elements"
+[18:46:25]  DATA                {"using":"css selector","value":".aviso.alert.alert-danger"}
+[18:46:25]  RESULT              []
+[18:46:25]  COMMAND     POST     "/wd/hub/session/d57a03b782eaf5bc61536362f3b14225/elements"
+[18:46:25]  DATA                {"using":"css selector","value":".aviso.alert.alert-danger"}
+[18:46:25]  RESULT              [{"ELEMENT":"0.9656854984717718-9"}]
+[18:46:25]  COMMAND     GET      "/wd/hub/session/d57a03b782eaf5bc61536362f3b14225/element/0.9656854984717718-9/displayed"
+[18:46:25]  DATA                {}
+[18:46:25]  RESULT              true
+[18:46:25]  COMMAND     DELETE   "/wd/hub/session/d57a03b782eaf5bc61536362f3b14225"
+[18:46:25]  DATA                {}
+------------------------------------------------------------------
+[chrome #0-0] Session ID: d57a03b782eaf5bc61536362f3b14225
+[chrome #0-0] Spec: C:\Users\Juan Hernández\Downloads\miso-taller6\cucumber-webdriverio\features\login.feature
+[chrome #0-0] Running: chrome
+[chrome #0-0]
+[chrome #0-0] Login into losestudiantes
+[chrome #0-0]
+[chrome #0-0]     Login failed
+[chrome #0-0]       √ I go to losestudiantes home screen
+[chrome #0-0]       √ I open the login screen
+[chrome #0-0]       √ I fill a wrong email and password
+[chrome #0-0]       √ I try to login
+[chrome #0-0]       √ I expect to not be able to login
+[chrome #0-0]
+[chrome #0-0]
+[chrome #0-0] 5 passing (8s)
+[chrome #0-0]
+
+
+Juan Hernández@DESKTOP-UGF4HER MINGW32 ~/Downloads/miso-taller6/cucumber-webdriverio/features (master)
+$
